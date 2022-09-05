@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./BG.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #2148C0;
+}
+
+form {
+    margin-top: 161px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 398px;
+}
+
+.logo object {
+    width: 119.39px;
+    height: 97.85px;
+    margin-bottom: 71px;
+    margin-left: 80px;
+    
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.username, .password {
+    display: flex;
+    width: 300px;
+    height: 45px;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+button {
+    color: #2148C0;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    height: 45px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+button:hover {
+    color: #fff;
+    background-color: #8990a7;
+}
+
+input {
+    background-color: #2148C0;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+}
+
+input::placeholder {
+    font-size: 14px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.forgot-password {
+    margin-top: 11px;
+    margin-left: 146px;
+    width: 146px;
+    height: 20px;
+    
+}
+
+.forgot-password a{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+@media screen and (min-width: 400px) and (max-width:480px) {
+
+    main {
+        margin-left: -100px;
+    }
+
+    form {
+        margin: 161px auto;
+       
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width:760px) {
+    main {
+        margin-left: -100px;
+    }
+
+    form {
+        margin: 161px auto;
+       
+    }
+}
+
